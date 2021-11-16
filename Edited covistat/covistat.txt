@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Squadfree Bootstrap Template - Index</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets\img\logo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" herf="css/all/min.css">
+    <link rel="stylesheet" herf="css/fontawesome.min.css">
+    <link rel="stylesheet" herf="style.css">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Squadfree - v4.6.0
+  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+    <!-- header -->
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <h1 class="text-light"><a href="index.html"><span>COVISTAT</span></a></h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Analyze</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Symptoms</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Precautions</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <!-- class="d-flex justify-content-evenly gap-2 h-100 w-100"style="width: 100%; height=100%; max-width: 4250px;" -->
+    <style>
+/* .carousel {
+    margin-left: 15%;
+    margin-right: 15%;
+} */
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
+
+
+.slide-container { 
+    display: block; 
+}
+
+.slide-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+.slide-image img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+input#img-1:checked ~ .carousel-dots label#img-dot-1,
+input#img-2:checked ~ .carousel-dots label#img-dot-2,
+input#img-3:checked ~ .carousel-dots label#img-dot-3,
+input#img-4:checked ~ .carousel-dots label#img-dot-4,
+input#img-5:checked ~ .carousel-dots label#img-dot-5,
+input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+	opacity: 1;
+}
+
+
+input:checked + .slide-container .nav label { display: block; }
+
+
+    </style>
+    <section id="hero">
+        <div>
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons" id="img-1" checked />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="./assets/img/1st.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-3" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-2" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-2" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="./assets/img/2nd.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-1" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-3" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-3" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="./assets/img/3rd.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-2" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-1" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                </div>
+              </ul>
+            </div>
+          </div>
+    </section>
+    <!-- End Hero -->
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+                    <h2>Analyze</h2>
+                    <p>The API used has stopped its services so the data is available up to October 31.</p>
+                </div>
+                <div class="row no-gutters">
+                    <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+                        <div class="content">
+                            <div class="d-flex justify-content-start gap-4 mb-3">
+                                <div>
+                                    <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md">
+                                        <div class="container-fluid justify-content-start">
+                                            <h1 class="navbar-brand" href="#">State</h1>
+                                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+
+                            <form method="post">
+                                                <select class="ms-5" style="width: 200px; height: 35px; background-color: #257ba0;border-color: #257BA0; color: #fff; border-radius: 4px;" name="state" id="state">
+                                    <option >Select state</option>
+                                    <option value="AP">Andhra Pradesh</option>
+                                    <option value="AN">Andaman and Nicobar Islands</option>
+                                    <option value="AR">Arunachal Pradesh</option>
+                                    <option value="AS">Assam</option>
+                                    <option value="BR">Bihar</option>
+                                    <option value="CH">Chandigarh</option>
+                                    <option value="CT">Chhattisgarh</option>
+                                    <option value="DN">Dadar and Nagar Haveli and Damanand Diu</option>
+                                    <option value="DL">Delhi</option>
+                                    <option value="LA">Ladhak</option>
+                                    <option value="LD">Lakshadweep</option>
+                                    <option value="PY">Puducherry</option>
+                                    <option value="GA">Goa</option>
+                                    <option value="GJ">Gujarat</option>
+                                    <option value="HR">Haryana</option>
+                                    <option value="HP">Himachal Pradesh</option>
+                                    <option value="JK">Jammu and Kashmir</option>
+                                    <option value="JH">Jharkhand</option>
+                                    <option value="KA">Karnataka</option>
+                                    <option value="KL">Kerala</option>
+                                    <option value="MP">Madhya Pradesh</option>
+                                    <option value="MH">Maharashtra</option>
+                                    <option value="MN">Manipur</option>
+                                    <option value="ML">Meghalaya</option>
+                                    <option value="MZ">Mizoram</option>
+                                    <option value="NL">Nagaland</option>
+                                    <option value="OR">Odisha</option>
+                                    <option value="PB">Punjab</option>
+                                    <option value="RJ">Rajasthan</option>
+                                    <option value="SK">Sikkim</option>
+                                    <option value="TN">Tamil Nadu</option>
+                                    <option value="TG">Telangana</option>
+                                    <option value="TR">Tripura</option>
+                                    <option value="UP">Uttar Pradesh</option>
+                                    <option value="UT">Uttarakhand</option>
+                                    <option value="WB">West Bengal</option>
+                                
+                            </select>
+                                                </li>
+                                                </ul>
+                                        </div>
+                                </div>
+                                </nav>
+
+
+                            </div>
+
+
+                            <div class="d-flex justify-content-start  mb-3 ">
+                                <div>
+                                    <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md">
+                                        <div class="container-fluid justify-content-start">
+                                            <h1 class="navbar-brand" href="#">Category</h1>
+                                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+
+
+                                            <select class="ms-2" style="width: 200px; height: 35px; background-color:#257BA0; border-color: #67b0d1; color: #fff; border-radius: 4px;" name="state" id="state">
+                                    <option>Choose category </option>
+                                    <option value="confirmed">Confirmed </option>
+                                    <option value="recovered">Recovered</option>
+                                    <option value="deceased">Deceased</option>
+                                    <option value="vaccinated1">Vaccinated-1</option>
+                                    <option value="vaccinated2">Vaccinated-2</option>
+                          
+                            </select>
+                                            </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                                </nav>
+                            </div>
+
+                            <div class="d-flex justify-content-start  mb-3 ">
+                                <div>
+                                    <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md">
+                                        <div class="container-fluid justify-content-start">
+                                            <h1 class="navbar-brand" href="#">Type</h1>
+                                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                          </button>
+
+
+
+                                            <select class="ms-5" style="width: 200px; height: 35px; background-color:#257BA0;border-color: #67b0d1; color: #fff; border-radius: 4px;" name="state" id="state">
+                            <option>Select type</option>
+                            <option value="delta">Daily data</option>
+                            <option value="total">Cumulative data</option>
+                            
+                          </select>
+                                            </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>
+                            </nav>
+
+                            <!-- Date Range -->
+                            <div class="d-flex justify-content  mb-3 ">
+                                <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md">
+                                    <nav class="container-fluid justify-content-start">
+                                        <h4 class="navbar-brand mt-4" href="#" >Date Range</h4>
+                                
+                                <div class=" bg-white sm:p-6 rounded-md flex justify-between" >
+                                    <label class="block text-sm font-medium text-gray-700 gap-4">From
+                                      <input  class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm border-gray-300 rounded-md" type="date" name="bday" required pattern="\d{4}-\d{2}-\d{2}" placeholder="20/02/2020">
+                                      <span></span>
+                                    </label>
+                                  
+                                  </div>
+                                  
+                                  <div class="bg-white sm:p-6 rounded-md flex justify-between"  >
+                                      <label class="block text-sm font-medium text-gray-700 gap-4 ps-4" >To
+                                          <input  class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm border-gray-300 rounded-md" type="date" name="bday" required pattern="\d{4}-\d{2}-\d{2}" placeholder="20/02/2020">
+                                        <span></span>
+                                      </label>
+                                   
+                               </div>
+                            </nav>
+                            </nav>
+                               </div>
+
+                            <nav>
+                           
+                                    <div>
+                                        <div class="gap-3 py-4" style="margin-left: 300px; ">
+
+                                            <button type="button" class="btn btn-secondary" style="background-color:#257BA0;border-color: #67b0d1; border-radius: 3px;">Submit</button>
+                                        </div>
+                                    </div>
+                            </nav>
+
+                            </div>
+                        </div>
+                    </form>
+
+
+                    </div>
+                </div>
+        </section>
+        <!-- End About Section -->
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+                    <h2>Symptoms</h2>
+                    <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aso-delay="100">
+                            <img src="https://img.icons8.com/doodle/48/000000/fever.png" />
+                            <h4 class="title"><a href="">Fever</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="https://img.icons8.com/external-flatarticons-blue-flatarticons/65/000000/external-cough-coronavirus-covid19-flatarticons-blue-flatarticons.png" />
+                            <h4 class="title"><a href="">Cough</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <img src="https://img.icons8.com/color/48/000000/person-tired.png" />
+                            <h4 class="title"><a href="">Tiredness</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/taste.png" />
+                            <h4 class="title"><a href="">Loss of taste or smell</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+                    <h2>Precautions</h2>
+                    <p>Stopping the spread starts with you</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aso-delay="100">
+                            <img src="https://img.icons8.com/color/50/000000/wear-dust-mask.png" />
+                            <h4 class="title"><a href="">Wear a mask</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="https://img.icons8.com/ios/48/000000/wash-your-hands--v2.png" />
+                            <h4 class="title"><a href="">Clean your hands</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <img src="https://img.icons8.com/doodle/48/000000/social-distance.png" />
+                            <h4 class="title"><a href="">Maintain social distance</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-vaccine-baby-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" />
+                            <h4 class="title"><a href="">Get vaccinated</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Counts Section ======= -->
+
+        <!-- End Counts Section -->
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <strong><span>Designed by : K.Ram Priyatham, P.Vaishnavi, G.Lohithya, N.Karthikeya</span></strong></br>
+                    <strong><span>API Used: <a href="https://data.covid19india.org/v4/min/timeseries.min.json">https://data.covid19india.org/v4/min/timeseries.min.json</a></span></strong>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/purecounter/purecounter.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
